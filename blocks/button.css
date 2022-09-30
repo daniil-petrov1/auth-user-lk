@@ -1,0 +1,26 @@
+.button {
+    margin-bottom: 15px;
+    width: 350px;
+    height: 54px;
+    background-color: #f7f7f8;
+    border: 1px #ddd solid;
+    border-radius: 5px;
+    color: #000;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.2s ease-in;
+}
+
+.button_blue {
+    width: 350px;
+    height: 54px;
+    background-color: #0066fb;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.2s ease-in;
+}
