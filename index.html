@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="typography.css" />
+    <link rel="stylesheet" href="index.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +15,11 @@
 </head>
 <body>
         <div class="registration-content">
-            <h1 class="registration-content_h1">Добро пожаловать <br> в jetty academy</h1>
-            <p class="registration-content_p">Для регистрации введите свой Email, мы отправим на него ссылку для входа в личный кабинет</p>
+            <h1 class="registration-content__h1 h1 bold">Добро пожаловать <br> в jetty academy</h1>
+            <button class="button button_red registration-content__button">
+               <img class="button__image" />
+            </button>
+            <div class="registration-content_p">Для регистрации введите свой Email, мы отправим на него ссылку для входа в личный кабинет</div>
             <form class="registration-content_form" action="#">
                 <label class="registration-content_form_label" for="email">Email</label>
                 <input class="registration-content_form_input" type="email" placeholder="youremail@email.ru" name="email" required>

@@ -1,3 +1,5 @@
+@import url('blocks/button.css');
+
 /* Внутренние отступы */
 ul[class], ol[class] {
   padding: 0;
@@ -26,13 +28,8 @@ body {
     border-radius: 10px;
 }
 
-.registration-content_h1 {
-    margin-bottom: 30px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
-    font-size: 60px;
-    line-height: 120%;
-    color: #1b1b1b;
+.registration-content__h1 {
+    font-size: 10px;
 }
 
 .registration-content_p {
