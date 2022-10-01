@@ -10,107 +10,38 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   margin: 0;
 }
 
-/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Manrope', sans-serif;*/
 
 body {
-    background-color: #f2f3f3;
+    background-color: #f7f7f8;
 }
 
 .registration-content {
-    padding: 100px 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     position:absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
     align-items: center;
-    width: 750px;
+    width: 510px;
     border-radius: 10px;
+    background-color: #fff;
 }
 
-.description {
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    color: #7f7f7f;
-    width: 560px;
-}
-
-.form {
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 418px;
-}
-
-.label {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 120%;
-    color: #1b1b1b;
-    width: 100px;
+.link {
+    margin-top: 35px;
     display: block;
-    text-align: left;
-}
-
-.input {
-    margin-top: 10px;
-    margin-right: 10px;
-    padding-left: 25px;
-    width: 320px;
-    height: 70px;
-    background-color: #f3f3f3;
-    border: #ddd solid;
-    border-radius: 15px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
-    color: #1b1b1b;
-}
-
-.input:focus {
-    outline: none;
-    border: 1px solid #1b1b1b;
-}
-
-.form_button {
-    width: 50px;
-    height: 50px;
-    background-color: #1b1b1b;
-    border: none;
-    border-radius: 50px;
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    transition: 0.2s ease-in;
-}
-
-.form_button:hover {
-    background-color: #444;
-}
-
-.button-img {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.authorization_enter-lk {
     text-decoration: none;
     color: #7f7f7f;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
     font-size: 14px;
     line-height: 120%;
     transition: 0.2s ease-in;
 }
 
-.authorization_enter-lk:hover {
-    color: #1b1b1b;
+.link:hover {
+    color: #0066fb;
 }
